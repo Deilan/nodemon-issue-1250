@@ -3,5 +3,7 @@
     "watch": [
         "src"
     ],
-    "ext": "ts"
+    "ext": "ts",
+    "execArgs": ["--inspect=5858"],
+    "exec": "{{pwd}}/node_modules/.bin/ts-node ./src/index.ts --project ./tsconfig.development.json"
 }
